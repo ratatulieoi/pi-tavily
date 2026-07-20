@@ -1,0 +1,41 @@
+{
+  "name": "pi-tavily",
+  "version": "1.0.1",
+  "description": "Native Tavily search, extract, crawl, map, research, and usage tools for pi",
+  "type": "module",
+  "license": "MIT",
+  "author": "ratatulieoi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratatulieoi/pi-tavily.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ratatulieoi/pi-tavily/issues"
+  },
+  "homepage": "https://github.com/ratatulieoi/pi-tavily#readme",
+  "keywords": [
+    "pi-package",
+    "pi-coding-agent",
+    "tavily",
+    "web-search",
+    "research"
+  ],
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
